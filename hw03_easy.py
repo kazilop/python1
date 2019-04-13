@@ -9,8 +9,6 @@ import math
 # Для решения задачи не используйте встроенные функции и функции из модуля math.
 
 def zadanie1():
-    my_number = float(input("Введи число : \n"))
-    round_s = int(input("Введи кол-во знаков после запятой"))
 
     def my_round(number, ndigits):
         number = number * (10 ** ndigits)
