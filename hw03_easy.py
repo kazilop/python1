@@ -12,9 +12,15 @@ def zadanie1():
     my_number = float(input("Введи число : \n"))
     round_s = int(input("Введи кол-во знаков после запятой"))
 
-    #округление
-    ss = round(my_number,round_s)
-    print(ss)
+    def my_round(number, ndigits):
+        number = number * (10 ** ndigits)
+
+        number = number // 1
+        return number / (10 ** ndigits)
+
+    print(my_round(5435225.44444, 2))
+
+
 
 
 
