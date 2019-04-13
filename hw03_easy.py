@@ -12,7 +12,7 @@ def zadanie1():
     my_number = float(input("Введи число : \n"))
     round_s = int(input("Введи кол-во знаков после запятой"))
 
-
+    #округление
     ss = round(my_number,round_s)
     print(ss)
 
